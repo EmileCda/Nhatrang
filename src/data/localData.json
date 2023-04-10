@@ -1,0 +1,114 @@
+{
+  "AppName": "Nhatrang",
+  "language": [
+    {
+      "id": "fr",
+      "name": "Français",
+      "description": "Langue Française",
+      "urlFlag": "./../public/images/fr.png"
+    },
+    {
+      "id": "es",
+      "name": "Español",
+      "description": "Lengua española",
+      "urlFlag": "./../public/images/es.png"
+    },
+    {
+      "id": "en",
+      "name": "English",
+      "description": "English speaking",
+      "urlFlag": "./../public/images/en.png"
+    }
+  ],
+
+  "carousel": {
+    "images": [
+      {
+        "name": "cham-tower.jpg",
+        "caption": "Les tours Cham"
+      },
+      { "name": "cham-tower-2.jpg", "caption": "Les tours Cham" },
+      { "name": "Long-Son-pagoda-Nhatrang.jpg", "caption": "Pagode Long son" },
+      { "name": "ba-ho-waterfalls-nhatrang.jpg", "caption": "Cascade Ba ho" },
+      { "name": "bao-tang-yersin-nha-trang.jpg", "caption": "Musée Yersin" },
+      { "name": "cathedrale-pierre-nhatrang.jpg", "caption": "Cathédrale de pierre" },
+      { "name": "chua-long-son-nhatrang.jpg", "caption": "Pagode Long son" },
+      { "name": "nha-trang-stone-church-1.jpg", "caption": "Cathédrale de pierre" },
+      { "name": "nhatrang-beach.jpg", "caption": "Riviera" },
+      { "name": "nhatrang-by-night.jpg", "caption": "Nhatrang By night" },
+      { "name": "ninh_van_bay_Nhatrang.jpg", "caption": "Nonh van Bay" },
+      { "name": "dao_yen_nha_trang_gonatour.jpg", "caption": "Yen island" }
+    ],
+    "timer": 60000
+  },
+  "navBar": [
+    {
+      "fr": "Accueil",
+      "en": "Home",
+      "es": "Inicio",
+      "link": "/"
+    },
+    
+    {
+      "fr": "A propos",
+      "en": "About",
+      "es": "Acerca de",
+      "link": "/About"
+    },
+    {
+      "fr": "Test",
+      "en": "Test",
+      "es": "Prueba",
+      "link": "/Test"
+    }    
+  ],
+  "screenHome": [
+    {
+      "key": "screenName",
+      "fr": "Accueil",
+      "en": "Home",
+      "es": "[es] Home]"
+    }
+  ],
+  "textStory": [
+    {
+      "key": "imgUrl",
+      "fr": "/story/nhatrang-streetfood.jpg",
+      "en": "/story/nhatrang-streetfood.jpg",
+      "es": "/story/nhatrang-streetfood.jpg"
+    },
+    {
+      "key": "imgalt",
+      "fr": "Nhatrang repas de rue",
+      "en": "Nhatrang street food",
+      "es": "comida de la calle"
+    },
+    {
+      "key": "title",
+      "fr": "La cuisine de rue à Nha Trang",
+      "en": "La street food à Nha Trang ",
+      "es": "La comida callejera en Nha Trang"
+    },
+    {
+      "key": "text",
+      "fr": "La street food à Nha Trang est une variété de plats et de snacks vendus sur le trottoir à Nha Trang, une ville côtière du Vietnam. Les cuisines vietnamiennes, chinoises et locales sont toutes représentées. Les plats comprennent des banh mi (des sandwichs au pain de riz cuit à la vapeur), des «bun cha» (des nouilles de riz et des légumes cuits à la vapeur), des «com tam» (des nouilles de riz grillées), des «banh xeo» (des crêpes aromatisées) et des «ca phe sua da» (des cafés glacés à la vanille). Les aliments sont généralement servis avec des sauces, des herbes et des épices pour un goût unique et savoureux.",
+      "en": "The street food in Nha Trang is a variety of dishes and snacks sold south of the trottoir in Nha Trang, a coastal town of Vietnam. Vietnamese, Chinese and local cuisines are all represented. The dishes include banh mi (des sandwiches au pain de riz cuit à la vapeur), des «bun cha» (des nouilles de riz et des légumes cuits à la vapeur), des «com tam» (des nouilles de riz grillées) , des “banh xeo” (des crêpes aromatisées) and des “ca phe sua da” (des cafés glacés à la vanilla). Food is generally served with willows, herbs and spices for a unique and savory goût.",
+      "es": "La comida callejera en Nha Trang es una variedad de platos y bocadillos vendidos en el trottoir en Nha Trang, una ciudad costera de Vietnam. Les cuisines vietnamiennes, chinoises et locales sont toutes représentées. Les plats comprennent des banh mi (des sandwiches au pain de riz cuit à la vapeur), des «bun cha» (des nouilles de riz et des légumes cuits à la vapeur), des «com tam» (des nouilles de riz grillées) , des «banh xeo» (des crêpes aromatisées) et des «ca phe sua da» (des cafés glacés à la vanille). Les aliments sont généralement servis avec des sauces, des herbes et des épices pour un goût unique et savoureux."
+    },
+    {
+      "key": "hrefLink",
+      "fr": "/streetFood",
+      "en": "/streetFood",
+      "es": "/streetFood"
+    },
+    {
+      "key": "hrefText",
+      "fr": "en savoir plus",
+      "en": "more",
+      "es": "en saber más"
+    }
+    
+  ]
+}
+
+

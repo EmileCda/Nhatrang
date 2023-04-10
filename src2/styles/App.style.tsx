@@ -2,13 +2,13 @@
  *
  * * main style and common  style for the application
  */
-import styled, { ThemeProps } from "styled-components";
+import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
 /**
  * color theme from coolor.co
  * for the whole application
  */
-export const DeviceMinSize = {
+export const DevideMinSize = {
   mobile: "480px",
   tablet: "600px",
   tableteLS: "768px",
@@ -26,7 +26,6 @@ export const colorsInit= {
 
 
 export const colorsDark = {
-  
   background: colorsInit.dark ,
   lessBG: colorsInit.lessDark ,
   medium:colorsInit.medium ,
@@ -35,7 +34,6 @@ export const colorsDark = {
 }
 
 export const colorsLight = {
-  
   background:colorsInit.light , 
   lessBG: colorsInit.lessLight ,
   medium:colorsInit.medium ,
@@ -44,9 +42,8 @@ export const colorsLight = {
 }
 
 
-export const AppTheme ={
+export const AppTheme = {
   colors: {...colorsLight },
-  // colors: {...colorsDark },
   font: {
     regular: "Gloria Hallelujah, cursive",
     extra: "Poppins, sans-serif",
@@ -55,7 +52,6 @@ export const AppTheme ={
 
   },
   BorderRadius: "0.6rem",
-  Padding_1 : "1rem",
 };
 
 export const App = styled.div`
@@ -66,36 +62,20 @@ export const App = styled.div`
   align-items: center;
 `;
 
-export interface DefaultTheme {
-  body: string;
-  forground: string;
-  background:string ;
-  lessBG : string,
-  medium : string,
-  lessFG : string,
-}
 /**
  * Contient le style globale de l'application
  */
-
-
-
-export const AppGlobalStyle = createGlobalStyle<{ theme: DefaultTheme }>`
+export const AppGlobalStyle = createGlobalStyle`
   :root {
-    background-color: ${({ theme }) => theme.background};
+    background-color:${AppTheme.colors.background};
     text-decoration: none;
-    color:${({ theme }) => theme.forground};
-    margin: 0;
-    padding: 0;
   }
   html, body, #root {
-    background-color: ${({ theme }) => theme.background};
-    color:${({ theme }) => theme.forground};
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     min-width: 100vw;
     min-height: 100vh;
