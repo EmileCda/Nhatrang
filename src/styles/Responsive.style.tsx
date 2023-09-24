@@ -3,28 +3,28 @@ import { AppTheme, DeviceMinSize } from "./App.style";
 
 export const Section50 = styled.section`
   display: flex;
-  background-color: ${AppTheme.colors.lessBG};
+  background-color: ${({ theme }) => theme.background};
   flex-wrap: wrap;
   padding: ${AppTheme.Padding_1};
   h1 {
     line-height: 1.5rem;
     font-size: 1.5rem;
-    color: ${AppTheme.colors.forground};
+    background-color: ${({ theme }) => theme.forground};
   }
   p{
 
     font-size: 0.9rem;
     text-align: justify;
-    color: ${AppTheme.colors.forground};
+    color: ${({ theme }) => theme.forground};
 
   }
   a {
     line-height: 2.5rem;
     border-radius: 0.5rem;
-    background-color:${AppTheme.colors.medium};
+    background-color: ${({ theme }) => theme.background};
     padding: ${AppTheme.Padding_1};
     text-decoration: none;
-    color: ${AppTheme.colors.forground};
+    color: ${({ theme }) => theme.forground};
 }
 `;
 

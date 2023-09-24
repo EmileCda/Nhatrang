@@ -17,21 +17,19 @@ export default function App() {
   document.title = applicationName();
 
   return (
-<StrictMode>
+    <StrictMode>
       <BrowserRouter>
-      <ThemeProvider theme= {isDark ? colorsDark :colorsLight}>
-      <AppGlobalStyle  />
-      <Navbar />
+        <ThemeProvider theme={isDark ? colorsDark : colorsLight}>
+          <AppGlobalStyle />
+          <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/About" element={<About />} />
             <Route path="/Test" element={<Test />} />
-          <Route path="/StreeFood" element={<StreetFood />} />
-
+            <Route path="/StreeFood" element={<StreetFood />} />
           </Routes>
-          </ThemeProvider>
+        </ThemeProvider>
       </BrowserRouter>
     </StrictMode>
-  )
+  );
 }
-

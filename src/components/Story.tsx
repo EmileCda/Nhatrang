@@ -51,7 +51,7 @@ export default function Story(storyProps : StoryProps) {
     <>
     <Section50>
         <Div50L>
-          <ImgShadow src={img} alt={storyProps.imgalt} />
+          <ImgShadow src={imgage} alt={storyProps.imgalt} />
           {/* <ImgShadow src="/src/images/1.png" alt=""/> */}
         </Div50L>
 
